@@ -1,0 +1,34 @@
+<head>
+
+
+  	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+	<meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+	<link rel="shortcut icon" href="{{ site.github.url }}/images/favicon.ico" type="image/x-icon">
+	<!-- <link rel="icon" href="{{ site.github.url }}/images/block-quote.png" sizes="32x32" />
+	<link rel="icon" href="{{ site.github.url }}/images/block-quote.png" sizes="192x192" />
+	<link rel="appe-touch-icon-precomposed" href="{{ site.github.url }}/images/block-quote.png" /> -->
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.github.url | prepend: site.url }}">
+	<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href='{{ "/feed.xml" | prepend: site.github.url | prepend: site.url }}'>
+
+	<!--======================
+				All Css
+	========================-->
+	<!--frontend css-->
+	<link rel='stylesheet' id='fw-ext-builder-frontend-grid-css' href='{{ site.github.url }}/css/frontend-grid.css' type='text/css' media='all' />
+	<!--style css-->
+	<link rel='stylesheet' id='fw-theme-style-css' href='{{ site.github.url }}/css/style.css' type='text/css' media='all' />
+	<!--font-awesome css-->
+	<link rel='stylesheet' id='font-awesome-css' href='{{ site.github.url }}/css/font-awesome.min.css' type='text/css' media='all' />
+	<!--ionicons css-->
+	<link rel='stylesheet' id='ionicon-css' href='{{ site.github.url }}/css/ionicons.min.css' type='text/css' media='all' />
+	<!--animate css-->
+	<link rel='stylesheet' id='animate-css' href='{{ site.github.url }}/css/animate.css' type='text/css' media='all' />
+	<!--custom css-->
+	<link rel='stylesheet' id='custom-css' href='{{ site.github.url }}/css/custom.css' type='text/css' media='all' />
+
+	<!--[if lt IE 9]>
+	  <link rel='stylesheet' id='fw-theme-ie-css'  href='http://planup.haintheme.com/wp-content/themes/planup/plan-up/css/ie.css?ver=1.0' type='text/css' media='all' />
+	  <![endif]-->
+</head>

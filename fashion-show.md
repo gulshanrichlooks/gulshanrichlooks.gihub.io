@@ -1,0 +1,52 @@
+---
+layout: page
+title: Fashion Show Organizer In Delhi
+permalink: /fashion-show
+---
+<section class="fw-main-row">
+    <div class="fw-main-row-bg"></div>
+    <div class="fw-main-row-overlay has-color"></div>
+    <div class="fw-container ">        
+        <div class="fw-row">
+            <div class="fw-col-xs-12 fw-col-sm-6">
+                <div class="textblock-shortcode icon-box">
+                    <iframe width="100%" height="270" src="https://www.youtube.com/embed/hqijXn74EHk" frameborder="0" allowfullscreen></iframe>
+                    <h3 class="text-heading color-orange"><span>{{ 'Fashion Show Organizer In Delhi' | upcase}}</span></h3>
+                    <span class="color-grey droid-font font-14px">Rich Looks Makeup Studio is one of the high-flying organizers connect in providing Fashion Show Management services. With to our huge experience in fashion sector, we have been organizing a range of fashion shows all around. We are the well known Fashion Show Organizer in Delhi, offer fashion shows ramp, stage, equipment, LED screen, and many other things to make shows a huge success. With the help of our expert team members, we conceptualize and perform a show from beginning to its end as per the terms provided by our esteemed clients.
+                    </span>
+                </div>
+            </div>
+            <div class="fw-col-xs-12 fw-col-sm-6">
+                <div class="textblock-shortcode icon-box">
+                    <img src="{{ site.github.url }}/images/fashion-show3.jpg" alt="">
+                    <h3 class="text-heading color-blue"><span>{{ 'Benefits Of The Fashion Show' | upcase}}</span></h3>
+                    <span class="color-grey droid-font font-14px">There are benefits of our fashion show for aspiring models & makeup artists. Makeup artists are the one who really work hard to enhance the beauty of a model or actor but all credit goes to a model or actor. We present winning award to makeup artist along with certificates by the well-known celebrities that is captured by news magazines and media. Big step for models to make their future bright because we also provide an opportunity to all contestant in our upcoming video albums, advertisement, short films & movies.
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="fw-row">
+            <div class="fw-col-xs-12">
+                <div class="fw-divider-space" style="padding-top: 30px;"></div>
+            </div>
+        </div>
+        <div class="fw-row">
+            <div class="fw-col-xs-12 fw-col-sm-6">
+                <div class="textblock-shortcode icon-box">
+                    <iframe width="100%" height="270" src="https://www.youtube.com/embed/xlrxKsY2S14" frameborder="0" allowfullscreen></iframe>
+                    <h3 class="text-heading color-pink"><span>{{ 'Opportunity For Male / Female Models & Makeup Artists' | upcase}}</span></h3>
+                    <span class="color-grey droid-font font-14px">We provide an opportunity to makeup artist and male / female models to perform in a popular fashion show. Being a famous bollywood makeup artist “Gulshan Idrish” who is the organizer of the fashion show provides a platform to make-up artist to earn fame and appreciation in this highly competitive glamour world. All of the contestants whether models or Makeup artist are judged by the well-known bollywood celebrities and make-up artists and awarded by them with prices.
+                    </span>
+                </div>
+            </div>
+            <div class="fw-col-xs-12 fw-col-sm-6">
+                <div class="textblock-shortcode icon-box">
+                    <img src="{{ site.github.url }}/images/fashion-show4.jpg" alt="">
+                    <h3 class="text-heading color-green"><span>{{ 'The Perfect Make-up Awards' | upcase}}</span></h3>
+                    <span class="color-grey droid-font font-14px">“Gulshan Idrish” presents “The Perfect Make-Up Awards 2nd” on 18th June 2015 at Mandi House, New Delhi, after the success of “The Perfect Make-Up Awards 1st” which is was organized on 31st April 2015 at Technia Auditorium, Delhi. All famous makeup artists & Male / Female models are invited to join us at our show. You can see the pictures and videos of “The Perfect Makeup Award 1st” then visit our <span class="color-orange"><a href="https://www.facebook.com/pages/The-Perfect-Makeup-Awards/1572606932993929">Facebook Page</a></span>.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

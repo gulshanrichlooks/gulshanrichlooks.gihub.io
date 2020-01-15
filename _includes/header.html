@@ -1,0 +1,70 @@
+<header id="masthead" class="site-header">
+    <div class="blog-header-wrapper has_sticky">
+        <div class="blog-header">
+            <div class="site-branding">
+                <h1 class="site-title">
+                <a title="{{ site.title }}" href="{{ site.github.url }}/" rel="home">
+                <img class="logo-df" src="{{ site.github.url }}/images/df-logo.png" alt="{{ site.title }}">
+                <img class="logo-sticky" src="{{ site.github.url }}/images/df-logo2.png" alt="{{ site.title }}">
+                </a>
+             </h1>
+            </div>
+            <!--site-branding -->
+            <div class="blog-navigation">
+                <nav id="site-navigation" class="main-navigation">
+                    <div class="menu-home-page-container">
+                        <ul id="menu-home-page" class="menu primary">
+                            <li id="menu-item-2065" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2065">
+                                <a href="{{ site.github.url }}/">Home</a>
+                            </li>
+                            <li id="menu-item-2066" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a href="{{ site.github.url }}/about">About</a></li>
+                            <li id="menu-item-2067" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-ancestor current-menu-parent menu-item-has-children menu-item-2067">
+                                <a href="{{ site.github.url }}/expertise">Expertise</a>
+                                <ul class="sub-menu">
+                                    <li id="menu-item-2071" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-9 current_page_item current_page_parent menu-item-2071"><a href="{{ site.github.url }}/bridal-makeup">BRIDAL MAKE-UP STUDIO</a></li>
+                                    <li id="menu-item-2568" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2568"><a href="{{ site.github.url }}/family-salon">FAMILY SALON</a></li>
+                                    <li id="menu-item-2891" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2891"><a href="{{ site.github.url }}/fashion-show">FASHION SHOW ORGANIZER</a></li>
+                                </ul>
+                            </li>
+                            <li id="menu-item-2163" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="{{ site.github.url }}/services">Services</a></li>
+                            <li id="menu-item-2068" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2068"><a href="{{ site.github.url }}/indiastalentdhamaal">India's Talent Dhamaal</a></li>
+                            <li id="menu-item-2172" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2172"><a href="{{ site.github.url }}/contact">Contact</a></li>
+                            <li id="menu-item-2450" class="reserve menu-item menu-item-type-custom menu-item-object-custom menu-item-2450"><a target="_blank" href="http://goo.gl/forms/kY2YsRPs0F5BuRCp2">APPLY ONLINE</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <!-- #site-navigation -->
+            </div>
+        </div>
+        <div id="dl-menu" class="dl-menuwrapper">
+            <button class="dl-trigger">Open Menu</button>
+            <ul class="dl-menu primary">
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2065">
+                    <a href="{{ site.github.url }}/">Home</a>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2066"><a href="{{ site.github.url }}/about">About</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2067">
+                    <a href="{{ site.github.url }}/expertise">Expertise</a>
+                    <ul class="dl-submenu submenu">
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-9 menu-item-2071"><a href="{{ site.github.url }}/bridal-makeup">BRIDAL MAKE-UP STUDIO</a></li>
+                        <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2568"><a href="{{ site.github.url }}/family-salon">FAMILY SALON</a></li>
+                        <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2891"><a href="{{ site.github.url }}/fashion-show">FASHION SHOW ORGANIZER</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2163"><a href="{{ site.github.url }}/services">Services</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2068"><a href="{{ site.github.url }}/indiastalentdhamaal">India's Talent Dhamaal</a></li>
+                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-2172"><a href="{{ site.github.url }}/contact">Contact</a></li>
+                <li class="reserve menu-item menu-item-type-custom menu-item-object-custom menu-item-2450"><a target="_blank" href="http://goo.gl/forms/kY2YsRPs0F5BuRCp2">APPLY ONLINE</a></li>
+            </ul>
+        </div>
+        <!-- /dl-menuwrapper -->
+    </div>
+    {% if page.layout == 'page' %}
+        <div class="page-banner" style="color: #fff;background-image: url({{ site.github.url }}/images/bg/blog-banner.jpg)">
+            <div class="container">
+                <h2 class="header-title">{{ page.title }}</h2>
+                <h3 class="header-desc font-title font-size-h3">{{ page.description }}</h3>
+            </div>
+        </div>
+    {% endif %}
+</header>
